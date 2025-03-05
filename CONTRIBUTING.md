@@ -15,15 +15,12 @@ Below are the guidelines we would like you to follow:
 
 ## <a name="access"></a> Need Access?
 
-If you are a new developer looking to contribute to the base platform and require access to the SEMOSS GitHub and sprint board(s), please reach out to **Kathy Yang**.
+If you are a new developer looking to contribute to the base platform and require access to the SEMOSS GitHub and sprint board(s), please reach out to semoss@semoss.org
 
 ## <a name="question"></a> General Question or Problem?
 
 For general questions, first check the [Community Discussion Board](https://github.com/SEMOSS/community/discussions), where you can search for common questions and answers from our community of users and developers
-or start a new Discussion. Just be sure to exclude any sensitive information like personal identifiers or connection keys, as the Discussion board is publicly accessible. 
-
-The AI Core Global team also hosts **Office Hours every other Thursday**, where users from different member firms can clarify how platform features function, 
-troubleshoot their blockers, or raise recommendations for future platform development. Please reach out to **Jasneet Kaur** for the calendar invite if interested. 
+or start a new Discussion. Just be sure to exclude any sensitive information like personal identifiers or connection keys, as the Discussion board is publicly accessible.
 
 ## <a name="submit"></a> Submission Guidelines
 
