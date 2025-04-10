@@ -1,6 +1,6 @@
-# Contributing to SEMOSS / AI Core
+# Contributing to SEMOSS / GovConnect.ai
 
-Thank you for your interest in contributing to the SEMOSS / AI Core base platform! 
+Thank you for your interest in contributing to the SEMOSS / GovConnect.ai base platform! 
 Below are the guidelines we would like you to follow:
 
  - [GitHub Access](#access)
@@ -39,7 +39,7 @@ If you find a bug, you can help us by [submitting an issue](https://github.com/S
 Please provide a clear and concise title and fill out all the relevant sections, including steps to reproduce the error and screenshots of the UI or logs if applicable.
 You can access the logs tab by right-clicking on the screen selecting Inspect from the menu. 
 
-Lastly, please add the issue to the **SEMOSS** Project on the right-hand menu, if you have access. 
+Lastly, please add the issue to the **Catch-All** Project on the right-hand menu, if you have access. 
 
 ### <a name="feature"></a> Idea for a New Feature or Feature Enhancement?
 
@@ -48,7 +48,7 @@ You can suggest a new feature or enhancement to an existing feature by [submitti
 Please provide a descriptive and concise title and fill out all relevant sections. If applicable, please include annotated screenshots in the “Additional context” section to 
 illustrate the current state of the platform, where you envision the feature existing within the platform, and/or a rough mock-up of what the new feature might look like.
 
-Lastly, please add the issue to the **SEMOSS** Project on the right-hand menu, if you have access. 
+Lastly, please add the issue to the **Catch-All** Project on the right-hand menu, if you have access. 
 
 
 ## <a name="submit-pr"></a> Submitting a Pull Request (PR)
@@ -71,7 +71,7 @@ The name of the PR is what will appear on the Release Notes and Changelog. Pleas
 
 Some keys to keep in mind:
 
-* Use past tense
+* Use present-tense, imperative-style language, as if you are giving a command to the code base (e.g. "fix pagination bug in Members Table")
 
 * Avoid technical jargon
 
@@ -81,7 +81,7 @@ Some keys to keep in mind:
 
 **For example:**
 
-`"Added a Slider Block to System Blocks"` ✅
+`"Add a Slider Block to System Blocks"` ✅
 
 `"feat(ui): slider component build"` 🚫
 
@@ -115,34 +115,28 @@ Fully flushed out syntax for a commit is:
 
 `[#IssueNumberOnGithub] type(optional scope input): any message`
 
-For example ticket number 10, with type test, and scope api with the commit message being 'added api tests', your commit would be:
+For example, for a ticket with an issue number of **10**, type of **feat**, scope of **client**, and commit message of **'add date picker drag-and-drop system block'**, your commit would be:
 
-`[#10] test(api): added api tests`
+`[#10] feat(client): add date picker drag-and-drop system block`
 
 ### Type
 
 Commit type must be one of the following: 
 
 * `build`: Changes that affect the build system or external dependencies 
-* `chore`: 
+* `chore`: Grunt tasks like removing dead code,fixing comments, and removing completed todos
 * `ci`: Changes to our CI configuration files and scripts
-* `docs`: Documentation only changes
+* `docs`: Changes to documentation only
 * `feat`: A new feature
 * `fix`: A bug fix
-* `git`: 
 * `perf`: A code change that improves performance
 * `refactor`: A code change that neither fixes a bug nor adds a feature
-* `revert`: 
+* `revert`: A code change that undoes a previous change
 * `style`: Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc)
 * `test`: Adding missing tests or correcting existing tests
 
 ### Scope
 
-Commit scope must be one of the following:
-
-* `(client)`: The "new" UI for the AI Core platform, including Agent Builder, Engine Catalogs, Engine Settings, etc. 
-* `(legacy)`: The "old" UI, the BI tool, and terminal
-* `(ui)`: Base component library for the UI
-* `(renderer)`: Library used for Drag-and-Drop App Builder
-* `(sdk)`: Tools to help developers tap into SEMOSS enviornment
+Commit messages can contain a scope in parentheses after the type. However, these scopes differ between repos so it is best to 
+check the README of the repo you are currently working on to see the list of scopes available for that repository.
 
