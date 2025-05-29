@@ -1,0 +1,43 @@
+name: Test
+description: A specific test to verify an isolated part of code.
+title: "<title>"
+labels: []
+type: test
+body:
+- type: checkboxes
+  attributes:
+    label: Is there an existing issue for this?
+    description: Please search to see if an issue already exists.
+    options:
+    - label: I have searched the existing issues
+      required: true
+- type: textarea
+  attributes:
+    label: Feature
+    description: The overarching feature this component test is apart of.
+  validations:
+    required: false
+- type: textarea
+  attributes:
+    label: Component / Function
+    description: The specific component this test will cover.
+  validations:
+    required: false
+- type: textarea
+  attributes:
+    label: Given
+    description: Preconditions or current state.
+  validations:
+    required: false
+- type: textarea
+  attributes:
+    label: When
+    description: When an event or user action occurs.
+  validations:
+    required: false
+- type: textarea
+  attributes:
+    label: Then
+    description: The expected outcome of this test.
+  validations:
+    required: false
