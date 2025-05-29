@@ -3,13 +3,14 @@ description: A specific test to verify an isolated part of code.
 title: "<title>"
 labels: []
 type: test
+projects: ["SEMOSS/39"]
 body:
 - type: checkboxes
   attributes:
     label: Is there an existing issue for this?
-    description: Please search to see if an issue already exists.
+    description: Please search across all relevant repositories to see if an issue already exists.
     options:
-    - label: I have searched the existing issues
+    - label: I confirm that I have not found an existing or similar issue.
       required: true
 - type: textarea
   attributes:
