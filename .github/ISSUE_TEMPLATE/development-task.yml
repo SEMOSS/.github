@@ -1,6 +1,5 @@
 name: Development Task
 description: Vetted and approved work items.
-title: ""
 labels: []
 type: task
 projects: ["SEMOSS/39"]
