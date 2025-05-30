@@ -8,10 +8,9 @@ body:
   attributes:
     label: Is there an existing issue for this?
     description: Please search across all relevant repositories to see if an issue already exists.
-    validations:
-      required: true
     options:
     - label: I confirm that I have not found an existing or similar issue.
+      required: true
 - type: textarea
   attributes:
     label: How to reproduce the issue
@@ -53,10 +52,10 @@ body:
     label: Have you reproduced the issue with at least the latest released version?
     options:
     - label: "Yes"
-    required: true
+      required: true
 - type: checkboxes
   attributes:
     label: I have checked my terminal/console and have included relevant text here?
     options:
     - label: "Yes"
-    required: true
+      required: true
