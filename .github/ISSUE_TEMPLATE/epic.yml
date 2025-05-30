@@ -1,6 +1,5 @@
 name: Epic
 description: Vetted and approved idea for the project. Typically used to group multiple tasks.
-title: ""
 labels: []
 type: epic
 projects: ["SEMOSS/39"]
