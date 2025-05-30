@@ -1,6 +1,5 @@
 name: Bug
 description: Report a bug to help improve the platform.
-title: ""
 labels: []
 type: bug
 projects: ["SEMOSS/39"]
@@ -20,7 +19,6 @@ body:
       2. Click on '....'
       3. Scroll down to '....'
       4. See error
-  validations:
     required: true
 - type: textarea
   attributes:
@@ -53,11 +51,11 @@ body:
   attributes:
     label: Have you reproduced the issue with at least the latest released version?
     options:
-    - label: Yes
+    - label: "Yes"
       required: true
 - type: checkboxes
   attributes:
     label: I have checked my terminal/console and have included relevant text here?
     options:
-    - label: Yes
+    - label: "Yes"
       required: true
