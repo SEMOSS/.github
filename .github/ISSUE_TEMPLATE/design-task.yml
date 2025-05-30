@@ -1,6 +1,5 @@
 name: Design Task
 description: Vetted and approved work items for the design team.
-title: ""
 labels: []
 type: task
 projects: ["SEMOSS/39"]
