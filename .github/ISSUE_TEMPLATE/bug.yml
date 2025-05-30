@@ -8,9 +8,10 @@ body:
   attributes:
     label: Is there an existing issue for this?
     description: Please search across all relevant repositories to see if an issue already exists.
+    validations:
+      required: true
     options:
     - label: I confirm that I have not found an existing or similar issue.
-      required: true
 - type: textarea
   attributes:
     label: How to reproduce the issue
