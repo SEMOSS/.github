@@ -52,10 +52,10 @@ body:
     label: Have you reproduced the issue with at least the latest released version?
     options:
     - label: "Yes"
-      required: true
+    required: true
 - type: checkboxes
   attributes:
     label: I have checked my terminal/console and have included relevant text here?
     options:
     - label: "Yes"
-      required: true
+    required: true
