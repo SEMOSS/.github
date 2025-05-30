@@ -1,6 +1,5 @@
 name: Test
 description: A specific test to verify an isolated part of code.
-title: ""
 labels: []
 type: test
 projects: ["SEMOSS/39"]
